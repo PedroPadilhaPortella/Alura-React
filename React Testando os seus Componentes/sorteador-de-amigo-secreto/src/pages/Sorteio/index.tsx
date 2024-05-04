@@ -15,12 +15,18 @@ export default function Sorteio() {
 
   const sortear = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
+<<<<<<< HEAD
 
     if (resultado.has(participanteDaVez)) {
       setAmigoSecreto(resultado.get(participanteDaVez)!);
       setTimeout(() => {
         setAmigoSecreto('');
       }, 5000);
+=======
+    
+    if (resultado.has(participanteDaVez)) {
+      setAmigoSecreto(resultado.get(participanteDaVez)!)
+>>>>>>> dfd0c50b37ad4086b2ca5659fff9fc9aab86b03f
     }
   }
 
@@ -34,7 +40,11 @@ export default function Sorteio() {
             required
             name="participanteDavez"
             id="participanteDavez"
+<<<<<<< HEAD
             placeholder="Selecione o participante"
+=======
+            placeholder="Selecione o seu nome"
+>>>>>>> dfd0c50b37ad4086b2ca5659fff9fc9aab86b03f
             value={participanteDaVez}
             onChange={evento => setParticipanteDaVez(evento.target.value)}
           >

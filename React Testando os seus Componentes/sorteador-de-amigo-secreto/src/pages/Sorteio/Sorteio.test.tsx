@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import { act, fireEvent, render, screen } from "@testing-library/react";
+=======
+import { fireEvent, render, screen } from "@testing-library/react";
+>>>>>>> dfd0c50b37ad4086b2ca5659fff9fc9aab86b03f
 import { RecoilRoot } from "recoil";
 import Sorteio from ".";
 import { useListaParticipantes } from "../../state/hooks/useListaParticipantes";
@@ -48,7 +52,11 @@ describe('na pagina de sorteio', () => {
       </RecoilRoot>
     );
 
+<<<<<<< HEAD
     const select = screen.getByPlaceholderText('Selecione o participante')
+=======
+    const select = screen.getByPlaceholderText('Selecione o seu nome')
+>>>>>>> dfd0c50b37ad4086b2ca5659fff9fc9aab86b03f
 
     fireEvent.change(select, {
       target: { value: participantes[0] }
@@ -63,6 +71,7 @@ describe('na pagina de sorteio', () => {
     expect(amigoSecreto).toBeInTheDocument()
   });
 
+<<<<<<< HEAD
   test('esconde o amigo secreto sorteado depois de 5 segundos', async () => {
     jest.useFakeTimers();
 
@@ -86,4 +95,6 @@ describe('na pagina de sorteio', () => {
     expect(alerta).not.toBeInTheDocument()
   })
 
+=======
+>>>>>>> dfd0c50b37ad4086b2ca5659fff9fc9aab86b03f
 });
