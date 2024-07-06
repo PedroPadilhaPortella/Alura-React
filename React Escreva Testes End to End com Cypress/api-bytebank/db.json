@@ -1,0 +1,154 @@
+{
+  "transacoes": [
+    {
+      "transacao": "Depósito",
+      "valor": "150",
+      "data": "18/11/2022",
+      "mes": "Novembro",
+      "id": 1
+    },
+    {
+      "transacao": "Depósito",
+      "valor": "100",
+      "data": "21/11/2022",
+      "mes": "Novembro",
+      "id": 2
+    },
+    {
+      "transacao": "Depósito",
+      "valor": "500",
+      "data": "05/01/2023",
+      "mes": "Janeiro",
+      "id": 3
+    },
+    {
+      "transacao": "Transferência",
+      "valor": "1500",
+      "data": "05/01/2023",
+      "mes": "Janeiro",
+      "id": 4
+    },
+    {
+      "transacao": "Transferência",
+      "valor": "250",
+      "data": "05/01/2023",
+      "mes": "Janeiro",
+      "id": 5
+    },
+    {
+      "transacao": "Transferência",
+      "valor": "80",
+      "data": "06/07/2024",
+      "mes": "Julho",
+      "id": 6
+    },
+    {
+      "transacao": "Transferência",
+      "valor": "0",
+      "data": "06/07/2024",
+      "mes": "Julho",
+      "id": 7
+    },
+    {
+      "transacao": "Transferência",
+      "valor": "80",
+      "data": "06/07/2024",
+      "mes": "Julho",
+      "id": 8
+    },
+    {
+      "transacao": "Transferência",
+      "valor": "80",
+      "data": "06/07/2024",
+      "mes": "Julho",
+      "id": 9
+    },
+    {
+      "transacao": "Transferência",
+      "valor": "80",
+      "data": "06/07/2024",
+      "mes": "Julho",
+      "id": 10
+    },
+    {
+      "transacao": "Transferência",
+      "valor": "80",
+      "data": "06/07/2024",
+      "mes": "Julho",
+      "id": 11
+    },
+    {
+      "transacao": "Transferência",
+      "valor": "80",
+      "data": "06/07/2024",
+      "mes": "Julho",
+      "id": 12
+    },
+    {
+      "transacao": "Transferência",
+      "valor": "80",
+      "data": "06/07/2024",
+      "mes": "Julho",
+      "id": 13
+    },
+    {
+      "transacao": "Transferência",
+      "valor": "80",
+      "data": "06/07/2024",
+      "mes": "Julho",
+      "id": 14
+    },
+    {
+      "transacao": "Transferência",
+      "valor": "80",
+      "data": "06/07/2024",
+      "mes": "Julho",
+      "id": 15
+    },
+    {
+      "transacao": "Transferência",
+      "valor": "80",
+      "data": "06/07/2024",
+      "mes": "Julho",
+      "id": 16
+    },
+    {
+      "transacao": "Transferência",
+      "valor": "80",
+      "data": "06/07/2024",
+      "mes": "Julho",
+      "id": 17
+    },
+    {
+      "transacao": "Transferência",
+      "valor": "80",
+      "data": "06/07/2024",
+      "mes": "Julho",
+      "id": 18
+    },
+    {
+      "transacao": "Transferência",
+      "valor": "80",
+      "data": "06/07/2024",
+      "mes": "Julho",
+      "id": 19
+    },
+    {
+      "transacao": "Transferência",
+      "valor": "80",
+      "data": "06/07/2024",
+      "mes": "Julho",
+      "id": 20
+    },
+    {
+      "transacao": "Transferência",
+      "valor": "80",
+      "data": "06/07/2024",
+      "mes": "Julho",
+      "id": 21
+    }
+  ],
+  "saldo": {
+    "valor": 2550
+  }
+}
