@@ -1,0 +1,33 @@
+import { AbBotao } from "ds-alurabooks";
+import { useNavigate } from "react-router-dom";
+import { useCarrinhoContext } from "../../contextApi/carrinho";
+import BotaoNavegacao from "../BotaoNavegacao"
+import sacola from '../../assets/sacola.png'
+import './CarrinhoSuspenso.css'
+import CarrinhoSuspensoItem from "./CarrinhoSuspensoItem";
+
+const CarrinhoSuspenso = () => {
+  const navigate = useNavigate();
+  const { carrinho } = useCarrinhoContext()
+
+  return (
+    <div>
+      <div className="carrinho dropdown">
+        <BotaoNavegacao
+          texto="Sacola"
+          textoAltSrc=""
+          imagemSrc={sacola}
+        />
+        <div className="carrinho-conteudo">
+          <h4>Resumo da compra</h4>
+          {
+            carrinho?.itens.map((item, index) => (<CarrinhoSuspensoItem key={index} item={item} />))
+          }
+          <AbBotao texto="Ver sacola" onClick={() => navigate('/minha-sacola')} />
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default CarrinhoSuspenso;

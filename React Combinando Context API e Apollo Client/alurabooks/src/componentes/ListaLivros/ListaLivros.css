@@ -1,0 +1,16 @@
+.formularioBusca {
+  max-width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.livros {
+  display: flex;
+  justify-content: space-around;
+  gap: 24px;
+  flex-wrap: wrap;
+  max-width: 80%;
+  margin: 24px auto;
+}

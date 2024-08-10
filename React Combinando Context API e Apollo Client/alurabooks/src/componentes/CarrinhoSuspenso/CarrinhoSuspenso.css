@@ -1,0 +1,24 @@
+.carrinho.dropdown {
+  position: relative;
+}
+
+.carrinho.dropdown:hover .carrinho-conteudo {
+  display: block;
+}
+
+.carrinho-conteudo {
+  display: none;
+  position: absolute;
+  left: 0;
+  padding: 20px;
+  background: lightgray;
+}
+
+.carrinho-conteudo h4 {
+  margin: 0;
+  margin-bottom: 0.8rem;
+  font-size: 20px;
+  color: #EB9B00;
+  font-weight: 700;
+  white-space: nowrap;
+}
